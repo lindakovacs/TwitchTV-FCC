@@ -1,0 +1,102 @@
+body {
+background-color: #9733ee;
+}
+
+.logo {
+width: 550px;
+height: 100px;
+}
+.header {
+	padding: 50px 0;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+	background-color: #000000;
+}
+
+.header>h3 {
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#channel-list {
+	background-color: #91E7DD;
+}
+
+.channel {
+	padding: 10px;
+	width: 23%;
+	background-color: #fff;
+	margin: 15px 1%;
+}
+
+.channel div.alert {
+	width: 100%;
+}
+
+.channel-logo {
+	width: 100%;
+}
+
+.channel .now {
+	font-size: 12px;
+}
+
+.btn-group .btn {
+	width: 100px;
+}
+
+.btn.active {
+	border-width: 5px;
+}
+
+.btn-info {
+background-color: #9733ee;
+}
+
+/*
+.btn-info a:hover {
+background-color: #91e7dd;
+}
+*/
+@media (max-width: 1000px) {
+	.channel {
+		width: 31.3333%;
+	}
+}
+
+@media (max-width: 768px) {
+	.channel {
+		width: 48%;
+	}
+}
+
+@media (max-width: 480px) {
+	.channel {
+		width: 98%;
+	}
+}
+
+#footer {
+	width: 100%;
+	color: #fff;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	font-size: 15px;
+}
+
+.footer a {
+	color: #fff;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer a:hover {
+	color: #000;
+	background-color: #fff;
+}
+.footer p {
+	font-size: 17px;
+}
